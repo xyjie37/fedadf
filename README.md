@@ -2,7 +2,7 @@
 an algorithm for addressing catastrophic forgetting in dynamic data heterogeneity federated learning
 ## data prepare
 ### Cifar100
-Distribution of Dilikere：
+#### Distribution of Dilikere：
 you could change alpha and tasks first and then run:
 `python dataset/split_data_fmnist.py`
 ## run scripts
