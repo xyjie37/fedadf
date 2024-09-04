@@ -3,10 +3,12 @@ An algorithm for addressing catastrophic forgetting in dynamic data heterogeneit
 ## data prepare
 ### Cifar100
 #### Distribution of Dilikere：
-Change alpha and task first and then run:
+Change alpha and task first and then run:  
+
 `python dataset/split_data_cifar100.py`
 #### Distribution of Block:
-Change task first and then run:
+Change task first and then run:  
+
 `python dataset/split_block_cifar100.py`  
 Operate similarly on Fmnist and Cifar10 dataset.Miniimagenet requires an extra bit of preparation first,you need to run data_prepare.py first and then operate similarily.
 ## run scripts
