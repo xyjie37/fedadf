@@ -1,5 +1,5 @@
 # fedadf
-An algorithm for addressing catastrophic forgetting in dynamic data heterogeneity federated learning
+An algorithm for tackling catastrophic forgetting in dynamic data heterogeneity federated learning
 ## data prepare
 ### Cifar100
 #### Distribution of Dilikere：
