@@ -1,5 +1,7 @@
 # FedADF
 An algorithm for tackling catastrophic forgetting in dynamic data heterogeneity federated learning
+## requirements
+We suggest to use `pytorch==1.11.0`
 ## Data Prepare
 ### Cifar100
 #### Distribution of Dilikere：
