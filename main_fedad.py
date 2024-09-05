@@ -110,9 +110,6 @@ if __name__ == '__main__':
             if i in new_anchor:
                 global_anchor[i] = 0.05 * new_anchor[i].to(args.device) + 0.95 * global_anchor[i]
 
-        #全局网络的预测器再训练
-        
-        #创建数据集，
         embedded_list = []
         label_list = []
         # print(len(global_anchor))
@@ -129,8 +126,6 @@ if __name__ == '__main__':
         train_set = AnchorDataset(embedded_list, label_list)
         anchor_dataloader = torch.utils.data.DataLoader(dataset=train_set, batch_size=1000, shuffle=True, drop_last=True)
 
-
-        #进行预测器训练
         net_glob.load_state_dict(w_glob, strict=True)
         head_params = [p for name, p in net_glob.named_parameters() if 'linear' in name]
 
